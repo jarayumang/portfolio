@@ -1,0 +1,57 @@
+.home {
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.grid-item-1 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+  padding: 5vh;
+}
+
+.intro {
+  width: 50%;
+  font-size: 1vw;
+  font-family: "Mon-Regular";
+}
+
+.grid-item-2 {
+  grid-row: span 2;
+  display: flex;
+  align-items: center;
+  padding: 5vh;
+}
+
+.name {
+  font-size: 15vh;
+  font-family: "Mon-Extrabold";
+}
+
+.grid-item-3 {
+  grid-row: span 2;
+  display: flex;
+}
+
+.img {
+  height: 70%;
+}
+
+.grid-item-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh;
+}
+
+.down {
+  width: 10vh;
+  height: 10vh;
+}
